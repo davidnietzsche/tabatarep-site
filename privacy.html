@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>TabataRep — Privacy Policy</title>
+<style>
+ :root{--bg:#0b0d10;--panel:#13161b;--line:#232830;--text:#e8ecf2;--muted:#9aa3b2;--accent:#a3e635}
+ *{box-sizing:border-box}
+ body{margin:0;background:var(--bg);color:var(--text);font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Inter,sans-serif}
+ .wrap{max-width:760px;margin:0 auto;padding:56px 22px 90px}
+ h1{font-size:30px;margin:0 0 6px} h2{font-size:19px;margin:38px 0 10px}
+ .sub{color:var(--muted);margin:0 0 34px;font-size:14px}
+ p,li{color:#cdd5e0} a{color:var(--accent)}
+ .box{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:18px 20px;margin:22px 0}
+ .box b{color:var(--accent)}
+ table{width:100%;border-collapse:collapse;margin:14px 0;font-size:14.5px}
+ th,td{text-align:left;padding:10px 8px;border-bottom:1px solid var(--line);vertical-align:top}
+ th{color:var(--muted);font-weight:600}
+ footer{margin-top:48px;padding-top:20px;border-top:1px solid var(--line);color:var(--muted);font-size:13.5px}
+</style></head><body><div class="wrap">
+
+<h1>TabataRep — Privacy Policy</h1>
+<p class="sub">Last updated 8 November 2026 · BobOffice, LLC</p>
+
+<div class="box">
+<b>The short version.</b> The camera never leaves your phone. TabataRep processes each
+frame on the device to count and grade your reps, then discards it. No video or image is
+recorded, stored, or uploaded — there is no server that could receive one. An account is
+optional; the app works fully without one.
+</div>
+
+<h2>What the camera does</h2>
+<p>While a workout is running, TabataRep reads frames from your camera and runs pose
+detection <strong>entirely on your device</strong>, using Google ML Kit. What it keeps
+from each frame is a set of body-joint coordinates — numbers describing where your
+shoulders, elbows, hips, knees and ankles are. The image itself is never written to
+storage and never transmitted.</p>
+<p>Those coordinates stay on your phone, in the app's private storage, so your session
+report and replay still work afterwards.</p>
+
+<h2>What we collect</h2>
+<table>
+<tr><th>Data</th><th>When</th><th>Where it goes</th></tr>
+<tr><td>Camera frames</td><td>During a workout</td><td>Processed on device, then discarded. Never uploaded.</td></tr>
+<tr><td>Body-joint coordinates, rep counts, scores</td><td>During a workout</td><td>Stored on your device only, unless you create an account.</td></tr>
+<tr><td>Display name, avatar, body weight</td><td>If you enter them</td><td>Your device. Synced only if you sign in.</td></tr>
+<tr><td>Email address</td><td>Only if you create an account</td><td>Supabase (our authentication provider) to identify your account.</td></tr>
+<tr><td>Subscription status</td><td>If you subscribe</td><td>Handled by Apple or Google. We never see your payment details.</td></tr>
+</table>
+
+<h2>Accounts are optional</h2>
+<p>You can use every scoring feature of TabataRep without an account. If you choose to
+create one — by email link, Google, or Apple — we store your email address so your
+subscription and training history can follow you to a new device.</p>
+<p>When you are signed in, the app uploads <strong>session summaries only</strong>: date,
+duration, exercise, rep count and score. <strong>Raw body-joint frames are never
+uploaded.</strong></p>
+
+<h2>What we do not do</h2>
+<ul>
+<li>We do not record, store or transmit video or photographs.</li>
+<li>We do not use advertising, ad networks, or third-party analytics SDKs.</li>
+<li>We do not sell or share your data with anyone for marketing.</li>
+<li>We do not track you across other apps or websites.</li>
+</ul>
+
+<h2>Who processes data for us</h2>
+<ul>
+<li><strong>Supabase</strong> — authentication and (if you sign in) session summaries.</li>
+<li><strong>Apple / Google</strong> — subscription billing and delivery. They handle payment
+details; we receive only whether a subscription is active.</li>
+<li><strong>Google ML Kit</strong> — pose detection. This runs <em>on your device</em>; frames
+are not sent to Google.</li>
+</ul>
+
+<h2>Saving to your photo library</h2>
+<p>If you tap Share, TabataRep creates a summary card and, with your permission, saves it
+to your photo library. It only ever <em>adds</em> an image you asked for. It does not read,
+scan or upload your existing photos.</p>
+
+<h2>Your choices</h2>
+<ul>
+<li><strong>Delete your data.</strong> Deleting the app removes everything stored on the device.</li>
+<li><strong>Delete your account.</strong> Email us and we will delete your account and any
+synced summaries.</li>
+<li><strong>Withdraw camera access</strong> at any time in your phone's settings. Scoring stops;
+nothing else is affected.</li>
+</ul>
+
+<h2>Children</h2>
+<p>TabataRep is not directed at children under 13 and we do not knowingly collect data
+from them.</p>
+
+<h2>Changes</h2>
+<p>If this policy changes materially we will update the date above and note it in the app's
+release notes.</p>
+
+<h2>Contact</h2>
+<p>BobOffice, LLC · 131 Continental Dr, Newark, DE 19713, United States<br>
+<a href="mailto:info@bobwork.ai">info@bobwork.ai</a></p>
+
+<footer>TabataRep is developed by BobOffice, LLC.</footer>
+</div></body></html>
